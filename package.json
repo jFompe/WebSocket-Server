@@ -4,6 +4,8 @@
   "description": "Web Socket Server",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "startnm": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/jFompe/WebSocket-Server/issues"
   },
-  "homepage": "https://github.com/jFompe/WebSocket-Server#readme"
+  "homepage": "https://github.com/jFompe/WebSocket-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
 }

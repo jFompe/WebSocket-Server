@@ -1,0 +1,19 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "Web Socket Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jFompe/WebSocket-Server.git"
+  },
+  "author": "Jaime Fomperosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jFompe/WebSocket-Server/issues"
+  },
+  "homepage": "https://github.com/jFompe/WebSocket-Server#readme"
+}
